@@ -1,0 +1,46 @@
+@media screen and (min-width: 450px) {
+    nav{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1056px) {
+    .input-container input{
+        width: 30vw;  
+    }
+}  
+
+
+@media screen and (max-width: 780px) {
+    .input-container input{
+        width: 50vw;  
+    }
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }   
+    nav{
+        margin-top: 2%;
+    }
+    header .logo{
+        margin: 0px;
+    }
+    .container-filmes{
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+    .busca-filme{
+        padding: 0 5%;
+    }
+    .busca-filme p{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .input-container input{
+        width: 60vw;  
+    }
+    .busca-filme p{
+        font-size: 25px;
+    }
+}

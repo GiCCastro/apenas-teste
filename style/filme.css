@@ -1,0 +1,124 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:var(--preta) ;
+    font-family: 'Arial', Times, serif;
+    color: white;
+    padding-top: 60px; 
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px; 
+    background-color: #333; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 2;
+    margin: 0;
+    top: 0;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Arial Bold', 'Helvetica', 'sans-serif';
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/*filme principal: elementos base*/
+
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/filmes_series/jw.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 5%;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.filme-principal .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao_trailer, .botao_info{
+    background-color: rgba(100, 100, 100, 0.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 12px;
+    transition: .3s ease all;
+    margin-right: 15px;
+}
+   
+.botao_trailer:hover, .botao_info:hover{
+    background-color: white;
+    color: black;
+}
+.botao_trailer{
+    cursor: pointer;
+}
+.botao_info{
+    cursor: not-allowed;
+}
+.botoes i{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 30px;
+}
+.carrossel-filmes{
+    margin: 0 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.box-filme:hover{
+    transform: scale(1.05); /* Aumenta em 5% */
+    opacity: 0.8;
+}
+.categoria{
+    color: #AAA;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

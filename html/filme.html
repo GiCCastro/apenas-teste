@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/icons/icon.png" type="image/png">
+    <link rel="stylesheet" href="../style/filme.css">
+
+    <link rel="stylesheet" href="../style/responsive_filme.css">
+
+    <!--video-->
+    <link rel="stylesheet" href="../style/trailer.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="../style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>       
+            <nav>
+                <a href="busca.html">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#inicio">Início</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#series">Séries</a>
+                <a href="../index.html">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div  id="inicio"  class="filme-principal">
+            <div class="container">
+                <div class="titulo-j">
+                <h3 class="titulo">Jurassic World: O Mundo dos Dinossauros</h3>
+                </div>
+                <p class="descricao">Vinte e dois anos após os eventos de Jurassic Park, Isla Nublar agora apresenta um parque temático de dinossauros em pleno funcionamento, Jurassic World, conforme originalmente imaginado por John Hammond.</p>
+                <div class="botoes">
+                    <button role="button" class="botao_trailer"  id="openTrailerBtn">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+
+                    <button role="button" class="botao_info">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+
+                    <div id="trailerModal" class="modal">
+                        <span class="close">&times;</span>
+                        <div id="youtubePlayer"></div> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <p class="categoria">Continuar assistindo</p>
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="../img/filmes_series/badboys.webp" alt="Bad boys">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="../img/filmes_series/13reasons.jpg" alt="13 Reasons Why">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="../img/filmes_series/lupin.jpg" alt="Lupin">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="../img/filmes_series/Enolaholmes.jpg" alt="Enola Holmes">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="../img/filmes_series/re.jpg" alt="Resident Evil">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="../img/filmes_series/galinhas.jpg" alt="Fuga das Galinhas 2">
+                </div>
+        </div>
+    </div>
+
+    <div class="carrossel-filmes">
+        <p id="filmes" class="categoria">Filmes imperdíveis para você</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/jurassic-park.jpg" alt="Jurassic Park">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/galinhas.jpg" alt="Fuga das Galinhas 2">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/jurassic-world2.jpg" alt="Jurassic World: Reino Ameaçado">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/Enolaholmes.jpg" alt="Enola Holmes">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/the5wave.webp" alt="The 5 Wave">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/ooo.webp" alt="1917">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/kongvsgodzilla.jpg" alt="Godzilla vs Kong">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/bright.jpg" alt="Bright">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="carrossel-filmes" id="series">
+        <p class="categoria">Séries para você</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/13reasons.jpg" alt="13 Reasons Why">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/re.jpg" alt="Resident Evil">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/ragnarok.jpg" alt="Ragnarok">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/b99.webp" alt="Broklyn nine-nine">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/strangerthings.jpg" alt="Stranger Things">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/annewithane.jpg" alt="Anne with Ane">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/capa-house.jpg" alt="House">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/lockedup.jpg" alt="Lockedup">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/blindspot.webp" alt="blindspot">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="../img/filmes_series/therain.jpg" alt="The Rain">
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/trailer.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://kit.fontawesome.com/bf43be4385.js" crossorigin="anonymous"></script>
+    <!-- <script src="../js/owl/jquery.min.js"></script>
+    <script src="../js/owl/owl.carousel.min.js"></script>
+    <script src="../js/owl/setup.js"></script> -->
+ 
+</body>
+</html>

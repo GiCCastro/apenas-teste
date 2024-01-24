@@ -1,0 +1,127 @@
+
+
+@media screen and (min-height: 1300px) {
+ 
+    header nav {
+        display: flex;
+        align-items: center; 
+        justify-content:center; 
+        gap: 20px;
+    }
+
+    header nav .fa-pencil {
+        color: #fff;
+        font-size: 30px;
+        display: block;
+    } 
+
+    header nav .logo{
+        font-size: 60px;
+    }
+    #perfis-container {
+        grid-template-columns: 1fr 1fr; 
+        gap: 45px;
+    }
+    main #perfis-container img {
+        width: 400px;
+    }
+
+    main h1{
+        font-size: 50px;
+    }
+    .perfil p{
+        font-size: 50px;
+    } 
+    main #botao{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 912px) {
+ 
+    header nav {
+        display: flex;
+        align-items: center; 
+        justify-content:center; 
+        gap: 15px;
+    }
+
+    header nav .logo{
+        font-size: 60px;
+    }
+    
+    header nav .fa-pencil {
+        color: #fff;
+        font-size: 20px;
+        display: block;
+    } 
+    
+    #perfis-container {
+        grid-template-columns: 1fr 1fr; 
+        gap: 30px;
+    }
+
+    main #perfis-container img {
+        width: 350px;
+    }
+    main h1{
+        font-size: 40px;
+    }
+    .perfil p{
+        font-size: 40px;
+    } 
+    #botao{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 820px) {
+     
+
+    main #perfis-container img {
+        width: 300px; 
+    }
+
+}
+@media screen and (max-width: 680px) {
+    main #perfis-container img {
+        width: 250px; 
+    }
+
+    .perfil p{
+        font-size: 30px;
+    } 
+}   
+
+    @media screen and (max-width: 560px) {
+        header nav .logo{
+            font-size: 50px;
+        }
+
+        main #perfis-container img {
+            width: 200px; 
+        }
+         main h1{
+            margin-top: 45px;
+            font-size: 25px;
+        }
+        
+        #perfis-container{
+            gap: 20px;
+        }
+        .perfil p{
+            font-size: 25px;
+        } 
+
+    }
+
+        
+    @media screen and (max-width: 430px) {
+        header nav .logo{
+            font-size: 40px;
+        }
+        main #perfis-container img{
+            width: 150px;
+        }
+    }
+  

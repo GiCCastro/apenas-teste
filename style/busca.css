@@ -1,0 +1,124 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+    --branco: #fff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:var(--preta) ;
+    font-family: 'Arial', Times, serif;
+    color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 30px; 
+    width: 100%;
+}
+
+header .logo{
+    text-decoration: none;
+    margin-left: 35px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Arial Bold', 'Helvetica', 'sans-serif';
+    font-size:25px;
+    cursor: pointer;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+header nav .fa-solid.fa-magnifying-glass {
+    color: var(--branco); 
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
+
+.input-container input{
+    width: 50vw; 
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.input-container input::placeholder{
+    font-size: 18px;
+}
+
+.input-container {
+    position: relative;
+    
+}
+
+
+.input-container input[type="search"]:focus {
+    outline: none; 
+}
+
+.input-container i.fa-search {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; 
+}
+
+.perfil{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.container-filmes{
+    display: grid;
+    justify-content: center;
+    margin: 50px 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 30px;
+}
+
+  .perfil:hover {
+    transform: scale(1.1); 
+}  
+
+.filme{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.busca-filme{
+    margin-bottom: 4%;
+    text-align: center;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    padding-bottom: 10px;
+}
+.busca-filme:hover{
+    transform: scale(1.05); 
+    opacity: 0.8;
+}
+
+.busca-filme p{
+    font-size: 25px;
+    margin-top: 2%;
+}

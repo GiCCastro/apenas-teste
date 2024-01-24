@@ -1,0 +1,89 @@
+@media screen and (min-width: 770px){
+    .descricao{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .filme-principal {
+        background-repeat: no-repeat;
+        background-position: center; 
+        display: flex; 
+        text-align: center;
+        align-items: center;
+        padding-top: 30%;
+    }
+  
+    .filme-principal .titulo{
+        font-size: 22px ;
+        margin: 0;
+
+    }
+
+     header .container{
+        display: flex;
+        flex-direction: column;
+          /* Centraliza verticalmente */
+    }
+    .titulo-j{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        margin: 0;
+    }
+    .descricao{
+        display: none;
+    }
+    .botoes{
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .botao_trailer, .botao_info{
+        margin-right: 0;
+        padding: 15px 15px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 414px) {
+    .filme-principal{
+        padding-bottom: 0;
+    }
+    .filme-principal .titulo{
+        width: 90%;
+    }
+    .botao_trailer, .botao_info{
+        margin-bottom:2%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .botoes i{
+        margin-right: 2px;
+    }
+    .botao_trailer, .botao_info{
+        margin-right: 0;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 334px) {
+    header .container{
+        padding: 10px 5px;
+    }
+    header nav a{
+        font-size: 18px;
+    }
+}
+
