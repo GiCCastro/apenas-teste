@@ -20,12 +20,19 @@ header nav .fa-pencil {
 header nav .logo{
     margin-left: 20px;
 }
-header .logo{
+/*header .logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', 'Arial Bold', 'Helvetica', 'sans-serif' !important;
     font-size:40px;
     cursor: pointer;
+}*/
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Arial Bold', 'Helvetica', 'sans-serif';
+    font-size:40px;
 }
 main {
     display: flex;
