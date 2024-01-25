@@ -25,7 +25,6 @@
      header .container{
         display: flex;
         flex-direction: column;
-          /* Centraliza verticalmente */
     }
     .titulo-j{
         display: flex;
