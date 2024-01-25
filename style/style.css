@@ -23,7 +23,7 @@ header nav .logo{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', 'Arial Bold', 'Helvetica', 'sans-serif';
+    font-family: 'Arial Black', 'Arial Bold', 'Helvetica', 'sans-serif' !important;
     font-size:40px;
     cursor: pointer;
 }
