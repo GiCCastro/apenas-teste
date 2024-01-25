@@ -29,10 +29,9 @@ header .logo{
     margin-left: 35px;
     color: var(--vermelho);
     font-family: 'Arial Black', 'Arial Bold', 'Helvetica', 'sans-serif';
-    font-size:25px;
+    font-size:40px;
     cursor: pointer;
 }
-
 
 header nav a{
     text-decoration: none;
