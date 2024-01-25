@@ -15,9 +15,9 @@
         display: block;
     } 
 
-    header nav .logo{
+    /*header nav .logo{
         font-size: 60px;
-    }
+    }*/
     #perfis-container {
         grid-template-columns: 1fr 1fr; 
         gap: 45px;
