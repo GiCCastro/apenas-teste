@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     closeModal.addEventListener("click", function() {
         trailerModal.style.display = "none";
         if (player) {
-            player.stopVideo(); 
+            player.pauseVideo(); 
         }
     });
 
@@ -31,14 +31,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function onPlayerReady(event) {
-        // Não inicie o vídeo automaticamente aqui.
     }
 
     openTrailerBtn.addEventListener("click", function() {
         trailerModal.style.display = "block";
         loadYouTubeVideo('S2_aWPGZwhs');
         
-        // Inicie o vídeo manualmente quando o botão for clicado.
         if (player) {
             player.playVideo();
         }
