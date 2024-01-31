@@ -82,6 +82,10 @@
         width: 300px; 
     }
 
+   main h2{
+       font-size: 25px;
+   }
+
 }
 @media screen and (max-width: 680px) {
     main #perfis-container img {
@@ -103,7 +107,6 @@
         }
          main h2{
             margin-top: 45px;
-            font-size: 25px;
         }
         
         #perfis-container{
