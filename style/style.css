@@ -10,7 +10,7 @@
 
 }
 body{
-    background-color: #141414;
+    background-color: var(--preta;
 } 
 
 header nav .fa-pencil {
