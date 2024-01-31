@@ -10,7 +10,7 @@
 
 }
 body{
-    background-color: var(--preta);
+    background-color: #141414;
 } 
 
 header nav .fa-pencil {
@@ -76,6 +76,3 @@ main h2{
 .perfil img{
     border-radius: 5px;
 }
-
-
-
