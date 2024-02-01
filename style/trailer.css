@@ -21,7 +21,7 @@
 .close {
   color: white;
   float: right;
-  font-size: 10%;
+  font-size: 8vh;
   font-weight: bold;
   cursor: pointer;
   position: absolute; 
