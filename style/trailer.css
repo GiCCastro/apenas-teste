@@ -21,11 +21,11 @@
 .close {
   color: white;
   float: right;
-  font-size: 12vh;
+  font-size: 10%;
   font-weight: bold;
   cursor: pointer;
   position: absolute; 
-  margin-top: 2%; 
+  margin-top: 1%; 
   right: 20px;
   z-index: 2; 
 }
