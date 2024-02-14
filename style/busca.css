@@ -98,7 +98,6 @@ header nav a:hover{
 }  
 
 .filme{
-    cursor: not-allowed;
     height: 100%;
     width: 100%;
     border-radius: 10px;
@@ -106,6 +105,7 @@ header nav a:hover{
 }
 
 .busca-filme{
+    cursor: not-allowed;
     margin-bottom: 4%;
     text-align: center;
     display: block;
