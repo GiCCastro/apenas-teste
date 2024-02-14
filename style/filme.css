@@ -101,14 +101,15 @@ header nav a:hover{
 .carrossel-filmes{
     margin: 0 20px;
 }
-
+img.box-filme{
+    cursor: not-allowed;
+}
 .box-filme{
     height: 100%;
     width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    cursor: not-allowed;
 }
 .box-filme:hover{
     transform: scale(1.05); /* Aumenta em 5% */
