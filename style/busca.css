@@ -96,15 +96,13 @@ header nav a:hover{
   .perfil:hover {
     transform: scale(1.1); 
 }  
-img.filme{
-    cursor: not-allowed;
-}
+
 .filme{
+    cursor: not-allowed;
     height: 100%;
     width: 100%;
     border-radius: 10px;
     display: block;
-    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .busca-filme{
