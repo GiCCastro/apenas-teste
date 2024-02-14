@@ -108,6 +108,7 @@ header nav a:hover{
     border-radius: 10px;
     display: block;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: not-allowed;
 }
 .box-filme:hover{
     transform: scale(1.05); /* Aumenta em 5% */
