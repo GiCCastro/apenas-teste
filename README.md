@@ -1,4 +1,4 @@
-# Replica do Streaming Netflix
+# Réplica do Streaming Netflix
 
 ## Descrição
 
