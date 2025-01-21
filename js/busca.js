@@ -5,7 +5,7 @@ function search() {
     for (let i = 0; i < filmes.length; i++) {
         let filme = filmes[i].querySelector('p');
         if (filme.innerHTML.toLowerCase().includes(input)) {
-            filmes[i].style.display = "block";  // Ou qualquer outro valor que você deseja (ex: "flex", "grid", etc.)
+            filmes[i].style.display = "block";  
         } else {
             filmes[i].style.display = "none";
         }
